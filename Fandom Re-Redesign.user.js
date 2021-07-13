@@ -17,6 +17,7 @@
     document.getElementsByClassName("page-side-tools")[0].remove()
     document.getElementById("WikiaBar").remove()
     document.getElementsByClassName("mcf-wrapper")[0].remove()
+    document.getElementsByClassName("banner-notifications-placeholder")[0].remove()
 
     GM_addStyle(
         `.main-container { margin-left : 0px !important; width : 100% !important; }` +
