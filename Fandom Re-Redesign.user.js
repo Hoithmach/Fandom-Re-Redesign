@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fandom Re-Redesign
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Hoithmach/Fandom-Re-Redesign
 // @version      0.1
 // @description  Adjusts Fandom's layout
 // @author       Hoithmach
