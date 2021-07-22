@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fandom Re-Redesign
-// @namespace    https://github.com/Hoithmach/Fandom-Re-Redesign
+// @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Adjusts Fandom's layout
 // @author       Hoithmach
@@ -16,8 +16,12 @@
     document.getElementsByClassName("page__right-rail")[0].remove();
     document.getElementsByClassName("page-side-tools")[0].remove()
     document.getElementById("WikiaBar").remove()
-    document.getElementsByClassName("mcf-wrapper")[0].remove()
     document.getElementsByClassName("banner-notifications-placeholder")[0].remove()
+
+    try {
+        document.getElementsByClassName("mcf-wrapper")[0].remove()
+    }
+    catch(err) {};
 
     GM_addStyle(
         `.main-container { margin-left : 0px !important; width : 100% !important; }` +
