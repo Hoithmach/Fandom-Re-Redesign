@@ -5,7 +5,7 @@
 // @description  Adjusts Fandom's layout
 // @author       Hoithmach
 // @match        https://*.fandom.com/wiki/*
-// @icon         https://static.wikia.nocookie.net/fategrandorder/images/4/4a/Site-favicon.ico
+// @icon         https://www.google.com/s2/favicons?domain=fandom.com
 // @grant        GM_addStyle
 // ==/UserScript==
 
