@@ -5,7 +5,7 @@
 // @description  Adjusts Fandom's layout
 // @author       Hoithmach
 // @match        https://*.fandom.com/wiki/*
-// @icon         https://www.google.com/s2/favicons?domain=fandom.com
+// @icon         https://www.fandom.com/f2/assets/favicons/favicon-32x32.png
 // @grant        GM_addStyle
 // ==/UserScript==
 
